@@ -48,7 +48,7 @@ export default function Navbar() {
           textDecoration: 'none',
           letterSpacing: '-0.01em',
         }}>
-          soham.me
+          sohamsingh.me
         </a>
 
         {/* Desktop */}
