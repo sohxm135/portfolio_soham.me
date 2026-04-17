@@ -41,9 +41,9 @@ const S = {
 
 const facts = [
   { label: 'Currently', value: 'Data Handling Lead · Parikshit Satellite' },
-  { label: 'Next', value: 'SDE Intern · Amazon (Jul 2026)' },
+  { label: 'Next', value: 'SDE Intern · Amazon · Jul 2026' },
   { label: 'Education', value: 'B.Tech IT · MIT Manipal · 2027' },
-  { label: 'Interests', value: 'Systems, distributed infra, product engineering' },
+  { label: 'Focused on', value: 'Distributed systems, backend engineering' },
   { label: 'Location', value: 'Manipal / Mumbai, India' },
 ];
 
@@ -62,13 +62,13 @@ export default function About() {
             style={S.body}
           >
             <p>
-              I'm a third-year IT student at MIT Manipal with a genuine interest in how software works — not just what it does, but the systems underneath.
+              I'm a third-year at MIT Manipal leading the data handling subsystem for Parikshit — a student-built satellite. That means firmware where a bug doesn't get a hotfix: real-time GPS telemetry over UART, FreeRTOS task scheduling across STM32 H7 boards, and PWM output tested to within 0.25% of spec.
             </p>
             <p>
-              On the hardware side, I lead data handling for a student satellite project, writing firmware that has to be right the first time. On the software side, I've built full-stack applications and worked at a fintech company building dashboards for financial data.
+              On the web side, I interned at 360 One building financial analytics dashboards in Next.js for internal teams, and I've shipped a full-stack app with a normalized SQL schema and role-based access control.
             </p>
             <p>
-              I'm joining Amazon as an SDE Intern in July 2026. For now I'm building things, learning systems, and staying curious.
+              I'm joining Amazon as an SDE intern in July 2026. Right now I'm studying how distributed systems handle scale — because that's the class of problem I'll be working on.
             </p>
           </motion.div>
 

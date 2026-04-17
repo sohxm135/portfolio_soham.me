@@ -78,9 +78,11 @@ export default function Hero() {
               fontWeight: 300,
               marginBottom: '32px',
             }}>
-              Software engineer. I build things that work at the edges —{' '}
-              <span style={{ color: '#c4b5fd' }}>embedded systems</span>,{' '}
-              <span style={{ color: '#818cf8' }}>web apps</span>, and everything in between.
+              I write firmware for a real satellite and I'm joining Amazon as an SDE intern.
+              I work closest to the{' '}
+              <span style={{ color: '#c4b5fd' }}>systems layer</span>{' '}
+              — where code has constraints and{' '}
+              <span style={{ color: '#818cf8' }}>correctness isn't optional</span>.
             </p>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginBottom: '40px' }}>
